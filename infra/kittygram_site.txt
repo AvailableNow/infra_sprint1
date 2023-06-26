@@ -1,0 +1,5 @@
+IP: 84.201.139.117;
+name_taski: полная ссылка (https://studytaski.hopto.org) на ваш проект Taski;
+name_kittygram: полная ссылка (https://kittygramm.ddns.net) на ваш проект Kittygram;
+login: admin;
+password: Qwerty12345; 
