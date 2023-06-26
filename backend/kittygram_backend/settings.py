@@ -1,11 +1,12 @@
 import os
-import environ
+from dotenv import load_dotenv
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-env = environ.Env()
-SECRET_KEY = env('TOKEN')
+load_dotenv()
+SECRET_KEY = os.getenv('TOKEN')
+
 DEBUG = True
 
 ALLOWED_HOSTS = []
