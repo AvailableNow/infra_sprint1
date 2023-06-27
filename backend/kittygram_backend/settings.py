@@ -9,7 +9,7 @@ SECRET_KEY = os.getenv('TOKEN')
 
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['kittygramm.ddns.net', '127.0.0.1', 'localhost']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
