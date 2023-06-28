@@ -130,7 +130,7 @@ dmypy.json
 .pyre/
 
 .vscode
-
+static_backend/
 media/
 .media
 
